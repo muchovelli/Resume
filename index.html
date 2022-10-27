@@ -1,54 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Title</title>
-    <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<div class="wrapper">
-    <header class="header">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
         <div class="header-upper">
-            <h1 class="heading-primary">Resume</h1>
-            <button class="hamburger">
-                <div class="hamburger-inner">
-                    <span class="hamburger-line"></span>
-                </div>
-            </button>
-            <nav class="navigation"></nav>
+          <h1 class="heading-primary">Resume</h1>
+          <button class="hamburger">
+            <div class="hamburger-inner">
+              <span class="hamburger-line"></span>
+            </div>
+          </button>
+          <nav class="navigation">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a href="#home" class="navigation-link">Home</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#news" class="navigation-link">News</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#contact" class="navigation-link">Contact</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#about" class="navigation-link">About</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="header-bottom">
-            <div class="header-bottom-inner">
-                <img src="selfie.jpg" alt="Selfie" class="selfie" />
-                <p class="name">Adam Dańda</p>
-                <p class="about-me">
-                    Web Developer, Graphic Designer, Photographer
-                </p>
-                <div>
-                    <button>Hire Me</button>
-                    <button>Download CV</button>
-                </div>
+          <div class="header-bottom-inner">
+            <img src="selfie.png" alt="Selfie" class="selfie" />
+            <p class="name">Adam Dańda</p>
+            <p class="about-me">
+              Web Developer, Graphic Designer, Photographer
+            </p>
+            <div class="btns-container">
+              <button class="util-btn">Hire Me</button>
+              <button class="util-btn">Download CV</button>
             </div>
+          </div>
         </div>
-    </header>
-    <main class="main">
-        <div class="tile">
-            <h2 class="heading-secondary">About</h2>
-            <p class="about-paragraph">Java Developer, Seo Enthusiast</p>
-            <h2 class="heading-secondary">Basic Information</h2>
-            <h3 class="heading-tetriary">Age:</h3>
-            <p>22</p>
-            <h3 class="heading-tetriary">Email:</h3>
-            <p>sraka@wp.pl</p>
+        <ul class="links-list">
+          <li class="links-list-item">
+            <a class="link">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="links-list-item">
+            <a class="link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="links-list-item">
+            <a class="link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="links-list-item">
+            <a class="link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </header>
+      <main class="main">
+        <div class="main-inner">
+          <div class="tile">
+            <div class="info-container">
+              <h2 class="heading-secondary">About</h2>
+              <p>Hej! Nazywam się Adam.</p>
+            </div>
+            <div class="info-container">
+              <h2 class="heading-secondary">Basic Information</h2>
+              <div class="single-info-container">
+                <h3 class="heading-tetriary">Age:</h3>
+                <span class="tile-span">22</span>
+              </div>
+              <div class="single-info-container">
+                <h3 class="heading-tetriary">Email:</h3>
+                <span class="tile-span">mail@wp.pl</span>
+              </div>
+              <div class="single-info-container">
+                <h3 class="heading-tetriary">Phone:</h3>
+                <span class="tile-span">+48 928 828 832</span>
+              </div>
+              <div class="single-info-container">
+                <h3 class="heading-tetriary">Address:</h3>
+                <span class="tile-span">Nah</span>
+              </div>
+            </div>
+          </div>
         </div>
-    </main>
-    <footer class="footer">footer</footer>
-</div>
-<div class="shadow"></div>
-<script src="script.js"></script>
-</body>
+      </main>
+      <footer class="footer">
+        <p class="footer-name">Adam Dańda</p>
+        <p class="copyright">© All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="fontawesome.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
