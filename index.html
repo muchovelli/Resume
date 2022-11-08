@@ -18,16 +18,19 @@
           <nav class="navigation">
             <ul class="navigation-list">
               <li class="navigation-item">
-                <a href="#home" class="navigation-link">Home</a>
+                <a href="#main" class="navigation-link">Home</a>
               </li>
               <li class="navigation-item">
-                <a href="#news" class="navigation-link">News</a>
+                <a href="#ProfessionalSkills" class="navigation-link">Professionals Skills</a>
               </li>
               <li class="navigation-item">
-                <a href="#contact" class="navigation-link">Contact</a>
+                <a href="#Portfolio" class="navigation-link">Portfolio</a>
               </li>
               <li class="navigation-item">
-                <a href="#about" class="navigation-link">About</a>
+                <a href="#WorkExperience" class="navigation-link">Work Experience</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#Education" class="navigation-link">Education</a>
               </li>
             </ul>
           </nav>
@@ -47,28 +50,28 @@
         </div>
         <ul class="links-list">
           <li class="links-list-item">
-            <a class="link">
+            <a class="link" href="https://www.facebook.com" >
               <i class="fa-brands fa-facebook-f"></i>
             </a>
           </li>
           <li class="links-list-item">
-            <a class="link">
+            <a class="link" href="https://www.facebook.com">
               <i class="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li class="links-list-item">
-            <a class="link">
+            <a class="link" href="https://www.facebook.com">
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
           </li>
           <li class="links-list-item">
-            <a class="link">
+            <a class="link" href="https://www.facebook.com">
               <i class="fa-brands fa-instagram"></i>
             </a>
           </li>
         </ul>
       </header>
-      <main class="main">
+      <main class="main" id="main">
         <div class="main-inner">
           <div class="tile">
             <div class="info-container">
@@ -101,7 +104,7 @@
           </div>
           <div class="tile">
             <div class="info-container">
-              <h2 class="heading-secondary">Professional Skills</h2>
+              <h2 class="heading-secondary" id="ProfessionalSkills">Professional Skills</h2>
             </div>
             <div class="grid-skills" id="skills">
               <div class="grid-skills-item">
@@ -151,6 +154,9 @@
             </div>
           </div>
           <div class="tile">
+            <div class="info-container">
+              <h2 class="heading-secondary" id="Portfolio">Portfolio</h2>
+            </div>
             <div class="grid-projects">
               <div class="grid-projects-item">
                 <img
@@ -158,6 +164,8 @@
                   alt="Pierwszy projekt"
                   class="project-image"
                 />
+                <span class="project-image-hover">Content Plan App</span>
+
               </div>
               <div class="grid-projects-item">
                 <img
@@ -165,32 +173,20 @@
                   alt="Drugi projekt"
                   class="project-image"
                 />
-              </div>
-              <div class="grid-projects-item">
-                <img
-                  src="assets/projekt3.jpg"
-                  alt="Trzeci projekt"
-                  class="project-image"
-                />
-              </div>
-              <div class="grid-projects-item">
-                <img
-                  src="assets/projekt4.jpg"
-                  alt="Czwarty projekt"
-                  class="project-image"
-                />
+                <span class="project-image-hover">Hacker App</span>
               </div>
             </div>
           </div>
           <div class="tile">
             <div class="info-container">
-              <h2 class="heading-secondary">Work Experience</h2>
+              <h2 class="heading-secondary" id="WorkExperience">Work Experience</h2>
             </div>
             <div class="grid">
               <div class="grid-item">
                 <div class="card">
                   <div class="company">
-                    <p>March 1999 - January 2001</p>
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
                   </div>
                   <div class="container">
                     <h4><b>Front End Developer</b></h4>
@@ -210,7 +206,8 @@
               <div class="grid-item">
                 <div class="card">
                   <div class="company">
-                    <p>March 1995 - January 1999</p>
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
                   </div>
                   <div class="container">
                     <h4><b>Backend + Frontend Developer</b></h4>
@@ -228,12 +225,13 @@
                 </div>
               </div>
               <div class="grid-item">
-                <div class="company">
-                  <p>March 1990 - January 1995</p>
-                </div>
                 <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
                   <div class="container">
-                    <h4><b>Big Data Manager</b></h4>
+                    <h4><b>Big Data Scientist</b></h4>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -251,13 +249,14 @@
           </div>
           <div class="tile">
             <div class="info-container">
-              <h2 class="heading-secondary">Education</h2>
+              <h2 class="heading-secondary" id="Education">Education</h2>
             </div>
             <div class="grid">
               <div class="grid-item">
                 <div class="card">
                   <div class="company">
-                    <p>March 1999 - January 2001</p>
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
                   </div>
                   <div class="container">
                     <h4><b>Front End Developer</b></h4>
@@ -277,7 +276,8 @@
               <div class="grid-item">
                 <div class="card">
                   <div class="company">
-                    <p>March 1995 - January 1999</p>
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
                   </div>
                   <div class="container">
                     <h4><b>Backend + Frontend Developer</b></h4>
@@ -295,12 +295,13 @@
                 </div>
               </div>
               <div class="grid-item">
-                <div class="company">
-                  <p>March 1990 - January 1995</p>
-                </div>
                 <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
                   <div class="container">
-                    <h4><b>Big Data Manager</b></h4>
+                    <h4><b>Backend + Frontend Developer</b></h4>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -314,46 +315,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="tile">
-            <div class="info-container">
-              <h2 class="heading-secondary">Message me</h2>
-            </div>
-            <div class="container">
-              <form action="action_page.php">
-                <label for="fname">First Name</label>
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="Your name.."
-                />
-
-                <label for="lname">Last Name</label>
-                <input
-                  type="text"
-                  id="lname"
-                  name="lastname"
-                  placeholder="Your last name.."
-                />
-                <label for="lname">Last Name</label>
-                <input
-                  type="text"
-                  id="email"
-                  name="lastname"
-                  placeholder="Your email."
-                />
-                <label for="subject">Subject</label>
-                <textarea
-                  id="subject"
-                  name="subject"
-                  placeholder="Write something.."
-                  style="height: 200px"
-                ></textarea>
-
-                <input type="submit" value="Submit" />
-              </form>
             </div>
           </div>
         </div>
